@@ -222,5 +222,20 @@ padding-left: 50px;
 .article-3-p {
     font-size: 13px;
     line-height: 1.2rem;
-    padding: 9px 0 0 12px;
+    padding-top: 9px;
+}
+
+.article-3 {
+    padding-left: 12px;
+}
+
+.article-3-h4{
+    padding-top: 9px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.article-3-h1 {
+    font-size: 20px;
+    font-weight: 800;
 }
