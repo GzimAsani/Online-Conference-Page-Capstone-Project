@@ -120,7 +120,7 @@ nav {
     max-width: 100%;
     background: url(/media/bubbles.png) no-repeat bottom;
     background-size: cover;
-    margin-top: -42px;
+    margin-top: 20px;
 }
 
 .first-section {
@@ -272,4 +272,46 @@ margin-bottom: auto;
 
 .footer-p {
     padding-top: 45px;
+}
+
+/*About Page*/
+
+.about-background-image {
+    max-width: 100%;
+    background: url(/media/bubbles.png) no-repeat bottom;
+    background-size: cover;
+}
+
+.about-main-container {
+    margin-top: 17px;
+    
+}
+
+.about-div-header {
+    margin-top: 100px;
+    font-size: 50px;
+    width: 750px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.about-div-p{
+    width: 700px;
+    line-height: 1.3rem;
+    border: solid 1px rgb(139, 133, 133);
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.about-article1-p2{
+    width: 600px;
+    line-height: 1.3rem;
+    font-weight: 900;
+    
+}
+
+.about-article1-p2 small {
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
 }
