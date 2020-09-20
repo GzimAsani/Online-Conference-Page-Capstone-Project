@@ -15,8 +15,8 @@
 
 .dgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(415px, 1fr));
-    grid-row-gap: 14%;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 34px;
     grid-column-gap: 2%;
 }
 
@@ -98,7 +98,6 @@ nav {
 .second-nav-container {
     background-color: rgb(255,255,255);
     height: 40px;
-    
 }
 
 .hr {
@@ -125,7 +124,7 @@ nav {
 }
 
 .first-section {
-    padding: 60px 0 0 90px;
+    padding: 60px 0 0 80px;
 }
 
 .first-section-h4 {
@@ -133,7 +132,7 @@ nav {
 }
 
 .first-section-title {
-    width: 800px;
+    width: 509px;
     font-size: 50px;
     font-weight: 800;
     line-height: 1em;
@@ -166,6 +165,10 @@ nav {
     background-size: cover;
     margin-top: 17px;
     background-color: black;
+}
+
+.article2-container {
+    margin: 0 30px;
 }
 
 .article-2-p {
@@ -209,9 +212,13 @@ nav {
 
 
 /*Article 3*/
+main {
+    height: 100%;
+}
 
 .article-3-container {
 padding-left: 50px;
+margin-bottom: auto;
 }
 
 .teachers-img {
@@ -238,4 +245,31 @@ padding-left: 50px;
 .article-3-h1 {
     font-size: 20px;
     font-weight: 800;
+}
+
+/*footer*/
+
+.footer-section {
+    background-color: rgb(211, 199, 199);
+}
+
+.picture {
+    width: 120px;
+    height: 100px;
+    margin: 30px 30px 60px 0;
+}
+
+.footer-section2 {
+    padding-top: 40px;
+    background-color: rgb(57,57,57)
+}
+
+.logo-footer {
+    width: 150px;
+    height: 100px;
+    padding-right: 20px;
+}
+
+.footer-p {
+    padding-top: 45px;
 }
