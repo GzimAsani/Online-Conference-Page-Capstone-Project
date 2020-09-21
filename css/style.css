@@ -415,10 +415,31 @@ table {
     transform: rotate(-45deg);
     font-weight: 900;
     font-size: 40px;
-    
 }
 
 .inside-squadre {
   left: 10px;
   top: 10px;
+}
+
+.tickets-section-div {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    background-color: #f4f7fa;
+}
+
+.tickets-section-h1 {
+    border: 1px solid black;
+    width: 30%;
+    height: 40px;
+    background-color: #d3d3d3;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.submit {
+    background-color: #ec5242;
+    color: white;
+    height: 40px;
+    width: 100px;
 }
