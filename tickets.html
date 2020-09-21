@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About</title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav>
+        <div class='dflex justify-content-end first-nav-items font-size'>
+            <i class="fab fa-facebook-f white-color nav-items"></i>
+            <i class="fab fa-twitter white-color nav-items"></i>
+            <p class='white-color nav-items'><a class='white-color' href='#'>My Page</a></p>
+            <p class='white-color nav-items'><a class='white-color' href='#'>English</a></p>
+            <p class='white-color nav-items'><a class='white-color' href='#'>Logout</a></p>
+        </div>
+    </nav>
+    <nav>
+        <div class='dflex second-nav-container justify-content-end'>
+            <div class='dflex img-container'>
+                <img class='img-logo' src='media/logo.jpg'>
+            </div>
+            <div class='dflex second-nav-items justify-content-end'>
+                <p><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></p>
+                <p><a href='./about.html' class='nav-items2 font-size black-color'>About</a></p>
+                <p><a class='nav-items2 font-size black-color'>Program</a></p>
+                <p><a class='nav-items2 font-size black-color'>Join</a></p>
+                <p><a class='nav-items2 font-size black-color'>News</a></p>
+                <p><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Tickets</button></p>
+            </div>
+        </div>
+        <hr class='hr'>
+    </nav>
+    <main>
+        <div class='tickets-main-div dflex-column align-items-center'>
+            <h1 class='main-programs mt-5'>Main Programs
+                <hr class='main-programs-hr'>
+            </h1>
+            <div class='dflex justify-content-center mt-3'>
+                <div class='tickets-main-div-container dflex justify-content-center'>
+                    <i class="fas fa-square-full mr-3 mt-2"></i>
+                    <span class='mt-2 mr-2'>STEP 1</span>
+                    <p class='mt-2'>Please select your tuition plan for the 2020/2021 academic year</p>
+                </div>
+            </div>
+            <!--Table-->
+            <div class='responsive-table mt-3 tuition'>
+                <table class='table table-bordered text-center m-auto'>
+                    <thead>
+                        <tr class='table-active font-weight-bold'>
+                            <th scope='col'>Tuition</th>
+                            <th scope='col'>First Semester</th>
+                            <th scope='col'>Second Semester</th>
+                            <th scope='col'>Full Semester</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='p-5'>
+                            <th class='font-weight-bold scope = ' row'>Date</th>
+                            <th scope='row'>27/07/2020</th>
+                            <th scope='row'>10/01/2021</th>
+                            <th scope='row'>20/07/2020</th>
+                        </tr>
+                        <tr class='align-items-center'>
+                            <th class='font-weight-bold' scope='row'>Full time student</th>
+                            <td>
+                                <span class='font-weight-bold red-color'>$3,200</span>
+                                <br>
+                                <input type='radio' name='tuition' value='first-semester'>
+                            </td>
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$3,200</span><br>
+                                <input type='radio' name='tuition' value='second-semester'>
+                            </td>
+
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$6,200</span><br>
+                                <input type='radio' name='tuition' value='full-semester'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class='font-weight-bold' scope='row'>Part Time Student</th>
+                            <td>
+                                <span class='font-weight-bold red-color'>$2,500</span><br>
+                                <input type='radio' name='tuition' value='first-semester'>
+                            </td>
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$2,500</span><br>
+                                <input type='radio' name='tuition' value='second-semester'>
+                            </td>
+
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$4,800</span><br>
+                                <input type='radio' name='tuition' value='full-semester'>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <section class = 'position-relative dflex-column align-items-center'>
+            <div class  = 'position-absolute fixed-top square-section'>
+                <i class="fas fa-square-full square-middle position-absolute"></i>
+                <i class = 'fas fa-chevron-down inside-squadre position-absolute white-color'></i>
+            </div>
+            <h1 class='main-programs mt-5 font-weight-bold'>Select your lunch
+                <hr class='main-programs-hr'>
+            </h1>
+            <div class='tickets-main-div-container dflex justify-content-center'>
+                <i class="fas fa-square-full mr-3 mt-2"></i>
+                <span class='mt-2 mr-2'>STEP 1</span>
+                <p class='mt-2'>Please select your tuition plan for the 2020/2021 academic year</p>
+            </div>
+        </section>
+        
+    </main>
+</body>
+
+</html>

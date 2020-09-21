@@ -351,3 +351,74 @@ margin-bottom: auto;
     background-color: transparent;
     background: red;
 }
+
+/*Tickets*/
+
+main {
+    margin-top: 17px;
+}
+
+.tickets-section {
+    padding: 0 20px;
+}
+
+.fa-square-full{
+    transform: rotate(-45deg);
+    color: #ec5242;
+}
+
+
+
+.tickets-main-div {
+    background-color: #f4f7fa;
+    padding-bottom: 60px;
+}
+
+.tickets-main-div-container {
+    border: 1px solid #d3d3d3;
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/*Table*/
+table {
+    display: table;
+    background-color: white;
+}
+
+.tuition {
+    max-width: 990px;
+    background: repeating-linear-gradient(135deg, #e14b28, #e14b28 5px, #f2f2fa 5px, #f2f2fa 10px, #182e60 10px, #182e60 15px, #f2f2fa 15px, #f2f2fa 20px);
+    padding: 10px;
+}
+
+.responsive-table {
+    width: 100%;
+    display: block;
+    line-height: 1.9;
+}
+
+
+.square-section {
+    top: -19px;
+    left: 49%;
+}
+
+.fixed-position {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.square-middle {
+    transform: rotate(-45deg);
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+
+.inside-squadre {
+  left: 10px;
+  top: 10px;
+}
