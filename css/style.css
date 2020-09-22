@@ -242,11 +242,7 @@ a {
   padding: 20px 0 80px 0;
 }
 
-
 /* Article 3 */
-main {
-  height: 100%;
-}
 
 .article-3-container {
   padding-left: 50px;
@@ -379,7 +375,6 @@ main {
   width: 290px;
   height: 200px;
   background-color: transparent;
-  background: red;
   margin-right: 5px;
   cursor: pointer;
 }
@@ -395,6 +390,7 @@ main {
 
 main {
   margin-top: 17px;
+  height: 100%;
 }
 
 .tickets-section {
@@ -433,7 +429,7 @@ table {
   max-width: 990px;
   background: repeating-linear-gradient(135deg, #e14b28, #e14b28 5px, #f2f2fa 5px, #f2f2fa 10px, #182e60 10px, #182e60 15px, #f2f2fa 15px, #f2f2fa 20px);
   padding: 10px;
-  margin: 3f0px;
+  margin: 30px;
 }
 
 .responsive-table {
