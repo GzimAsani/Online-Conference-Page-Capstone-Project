@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About</title>
+    <title>Tickets</title>
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
     <!--Navbar-->
 
     <nav>
-        <div class='dflex justify-content-end first-nav-items font-size'>
+        <div class='dflex justify-content-end first-nav-items font-size font-lato-sans'>
             <i class="fab fa-facebook-f white-color nav-items"></i>
             <i class="fab fa-twitter white-color nav-items"></i>
             <p class='white-color nav-items'><a class='white-color' href='#'>My Page</a></p>
@@ -27,13 +27,13 @@
         </div>
     </nav>
     <nav>
-        <div class='dflex second-nav-container justify-content-end'>
+        <div class='dflex second-nav-container justify-content-end>
             <div class='dflex img-container'>
                 <img class='img-logo' src='media/logo.jpg'>
             </div>
-            <div class='dflex second-nav-items justify-content-end'>
+            <div class='dflex second-nav-items justify-content-end '>
                 <p><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></p>
-                <p><a href='./about.html' class='nav-items2 font-size black-color'>About</a></p>
+                <p><a href='./about.html' class='nav-items2 font-size black-color font-cocogoose font-Verdana'>About</a></p>
                 <p><a class='nav-items2 font-size black-color'>Program</a></p>
                 <p><a class='nav-items2 font-size black-color'>Join</a></p>
                 <p><a class='nav-items2 font-size black-color'>News</a></p>
@@ -43,20 +43,39 @@
         </div>
         <hr class='hr'>
     </nav>
-    <main>
+<!--Medium Screen Navbar-->
+<nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
+    <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
+        aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
+        <div class="navbar-nav pl-3 align-items-center">
+            <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
+            <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
+            <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
+                    class='nav-items2  tickets-button'>Tickets</button></p>
+        </div>
+    </div>
+</nav>
+
+<hr class='medium-nav-hr'>
+
+    <!--Main-->
+
+    <main> 
         <div class='tickets-main-div dflex-column align-items-center'>
             <h1 class='main-programs mt-5'>Main Programs
                 <hr class='main-programs-hr'>
             </h1>
             <div class='dflex justify-content-center mt-3'>
                 <div class='tickets-main-div-container dflex justify-content-center'>
-                    <i class="fas fa-square-full mr-3 mt-2"></i>
-                    <span class='mt-2 mr-2'>STEP 1</span>
-                    <p class='mt-2'>Please select your tuition plan for the 2020/2021 academic year</p>
+                    <span class= > <i class="fas fa-square-full mr-3 mt-1"></i>STEP 1</span>
+                    <p class='mt-2 ml-3'>Please select your tuition plan for the 2020/2021 academic year</p>
                 </div>
             </div>
             <!--Table-->
-            <div class='responsive-table mt-3 tuition'>
+            <div class='responsive-table mt-3 tuition m-5'>
                 <table class='table table-bordered text-center m-auto'>
                     <thead>
                         <tr class='table-active font-weight-bold'>
@@ -124,7 +143,7 @@
                 <p class='mt-2'>Please select your lunch for the orientation day held on 25/09/2020<p></p>
             </div>
             <div class='p-3'>
-                <div class='dgrid'>
+                <div class='dgrid dgrid2'>
                     <div class='tickets-section-div mb-3'>
                         <h1 class='tickets-section-h1 mb-4'>Menu #1 <input type='radio' name='menues' value='menu-one'>
                         </h1>
@@ -187,6 +206,17 @@
 
         </div>
     </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

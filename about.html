@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> About </title>
+    <meta name="description" content="A static website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -14,8 +18,11 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+
 <body>
-    <nav>
+    <!--Navbar-->
+
+    <nav class='large-screen-navbar'>
         <div class='dflex justify-content-end first-nav-items font-size'>
             <i class="fab fa-facebook-f white-color nav-items"></i>
             <i class="fab fa-twitter white-color nav-items"></i>
@@ -35,12 +42,34 @@
                 <p><a class='nav-items2 font-size black-color'>Program</a></p>
                 <p><a class='nav-items2 font-size black-color'>Join</a></p>
                 <p><a class='nav-items2 font-size black-color'>News</a></p>
-                <p><button onclick="document.location='tickets.html'" class='nav-items2 font-size tickets-button'>Tickets</button></p>
+                <p><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Tickets</button></p>
             </div>
         </div>
         <hr class='hr'>
     </nav>
-    <main class='about-background-image about-main-border'>
+
+    <!--Medium Screen Navbar-->
+    <nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
+        <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
+            aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
+            <div class="navbar-nav pl-3 align-items-center">
+                <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
+                <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
+                <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2  tickets-button'>Tickets</button></p>
+            </div>
+        </div>
+    </nav>
+
+    <hr class='medium-nav-hr'>
+
+    <!--Main-->
+
+    <main class='background-image about-main-border'>
         <article class='about-main-container dflex-column align-items-center'>
             <div class='about-div-header mb-5 red-color'>
                 <h1>ABOUT MEMORIAL NEWFOUNDLAND AND LABRADOR'S UNIVERSITY </h1>
@@ -79,23 +108,24 @@
     <section class='dflex-column align-items-center my-5 about-section-2'>
         <div>
             <h1 class='about-section-h1 mb-5'>See the past graduation ceremonies at Memorial University
-            <hr class='main-programs-hr'>
+                <hr class='main-programs-hr'>
             </h1>
         </div>
         <div>
-            <p class = 'light-black'>Take a lokk at the pictures from our graduation ceremonies in both of our campuses</p>
+            <p class='light-black'>Take a look at the pictures from our graduation ceremonies in both of our campuses
+            </p>
         </div>
-        <div class='dflex justify-content-center mt-5'>
-            <div class='mr-3'>
+        <div class='dflex justify-content-center mt-5 graduation-pic-container'>
+            <div class='lg-mr-3 graduation-pic'>
                 <img class='img-graduation' src='media/graduation.jpg'>
             </div>
-            <div class = 'ml-3'>
+            <div class='lg-ml-3 graduation-pic'>
                 <img class='img-graduation' src='media/graduation2.jpg'>
             </div>
         </div>
     </section>
 
-    <footer class = 'footer'>
+    <footer class='footer'>
         <div class='footer-section'>
             <div class='dflex justify-content-center white-color pt-5 '>
                 <h1 class='main-programs'>Partner
@@ -103,22 +133,32 @@
                 </h1>
             </div>
             <div class='dflex justify-content-center'>
-                <img  class = 'picture' src = 'media/partner.png'>
-                <img  class = 'picture' src = 'media/partner2.png'>
-                <img  class = 'picture' src = 'media/partner3.png'>
-                <img  class = 'picture' src = 'media/partner4.png'>
-                <img  class = 'picture' src = 'media/partner6.png'>
+                <img class='picture' src='media/partner.png'>
+                <img class='picture' src='media/partner2.png'>
+                <img class='picture' src='media/partner3.png'>
+                <img class='picture' src='media/partner4.png'>
+                <img class='picture' src='media/partner6.png'>
             </div>
         </div>
-        <div class = 'footer-section2'>
-            <div class = 'dflex justify-content-center'>
-                <img class = 'logo-footer' src = 'media/footer-logo.png'>
-                <p class = 'footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
+        <div class='footer-section2'>
+            <div class='dflex justify-content-center'>
+                <img class='logo-footer' src='media/footer-logo.png'>
+                <p class='footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
             </div>
 
         </div>
     </footer>
-
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

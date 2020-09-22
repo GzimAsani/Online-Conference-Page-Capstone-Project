@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Capstone </title>
+    <meta name="description" content="A static website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
 
     <!-- Bootstrap CSS -->
@@ -18,7 +21,7 @@
 <body>
     <!--Navbar-->
 
-    <nav>
+    <nav class='large-screen-navbar'>
         <div class='dflex justify-content-end first-nav-items font-size'>
             <i class="fab fa-facebook-f white-color nav-items"></i>
             <i class="fab fa-twitter white-color nav-items"></i>
@@ -34,22 +37,43 @@
             </div>
             <div class='dflex second-nav-items justify-content-end'>
                 <p><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></p>
-                <p><a href = './about.html' class='nav-items2 font-size black-color'>About</a></p>
+                <p><a href='./about.html' class='nav-items2 font-size black-color'>About</a></p>
                 <p><a class='nav-items2 font-size black-color'>Program</a></p>
                 <p><a class='nav-items2 font-size black-color'>Join</a></p>
                 <p><a class='nav-items2 font-size black-color'>News</a></p>
-                <p><button onclick = "document.location = 'tickets.html'" class='nav-items2 font-size tickets-button'>Tickets</button></p>
+                <p><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Tickets</button></p>
             </div>
         </div>
         <hr class='hr'>
     </nav>
+
+    <!--Medium Screen Navbar-->
+    <nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
+        <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
+            aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
+            <div class="navbar-nav pl-3 align-items-center">
+                <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
+                <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
+                <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2  tickets-button'>Tickets</button></p>
+            </div>
+        </div>
+    </nav>
+
+    <hr class='medium-nav-hr'>
+
+
     <!--Main-->
     <main>
-        <article class = 'background-image'>
+        <article class='background-image'>
             <div class='dflex-column first-section'>
                 <div class='red-color'>
-                    <h4 class='first-section-h4'>MEMORIAL UNIVERSITY</h4>
-                    <h1 class='first-section-title '>A LEADING SCHOOL IN CANADA </h1>
+                    <h4 class='first-section-h4 font-weight-bold'>MEMORIAL UNIVERSITY</h4>
+                    <h1 class='first-section-title font-Verdana'>A LEADING SCHOOL IN CANADA </h1>
                 </div>
                 <div class='main-box black-color'>
                     <p class='first-section-p'>Memorial University is one of the largest universities in Atlantic
@@ -70,44 +94,50 @@
                 </h1>
 
             </div>
-            <div class='dflex justify-content-center article2-container'>
-                <div class='article2-div white-color'>
+            <div class='dflex  justify-content-center article2-container article2-container-md'>
+                <div class='article2-div article2-div-md white-color'>
                     <i class="fas fa-user-tie dflex justify-content-center article-2-icons"></i>
                     <h1 class='red-color dflex justify-content-center article-2-h1'>Business</h1>
-                    <p class='article-2-p justify-content-center '>When students graduate from Memorial with a business
+                    <p class='article-2-p article-2-p  justify-content-center '>When students graduate from Memorial
+                        with a business
                         degree, they are prepared to compete and succeed anywhere in the world.The teaching and learning
                         opportunities offered at Memorial will take you outside of the classroom. </p>
                 </div>
-                <div class='article2-div white-color'>
+                <div class='article2-div article2-div-md white-color'>
                     <i class="fas fa-school dflex justify-content-center article-2-icons"></i>
                     <h1 class='red-color dflex justify-content-center article-2-h1'>Education</h1>
-                    <p class='article-2-p'>The Faculty of Education offers a range of undergraduate programs, using a
+                    <p class='article-2-p article-2-p '>The Faculty of Education offers a range of undergraduate
+                        programs, using a
                         combination of delivery modes, technology and innovative approaches to prepare teachers for
                         careers in the K-12 school system.</p>
                 </div>
-                <div class='article2-div white-color'>
+                <div class='article2-div article2-div-md white-color'>
                     <i class="fab fa-wpbeginner dflex justify-content-center article-2-icons "></i>
                     <h1 class='red-color dflex justify-content-center article-2-h1'>Engineering</h1>
-                    <p class='article-2-p'>A five-year co-operative degree program composed of eight full-time academic
+                    <p class='article-2-p article-2-p '>A five-year co-operative degree program composed of eight
+                        full-time academic
                         terms and a minimum of four full-time work terms.</p>
                 </div>
-                <div class='article2-div white-color'>
+                <div class='article2-div article2-div-md white-color'>
                     <i class="fas fa-prescription-bottle-alt dflex justify-content-center article-2-icons "></i>
                     <h1 class='red-color dflex justify-content-center article-2-h1'>Medicine</h1>
-                    <p class='article-2-p'>A post graduate program that requires the completion of four years of study
+                    <p class='article-2-p article-2-p '>A post graduate program that requires the completion of four
+                        years of study
                         after the completion of a bachelor's degree. Upon successful completion, students will be
                         matched to a residency program.</p>
                 </div>
-                <div class='article2-div white-color'>
+                <div class='article2-div article2-div-md white-color'>
                     <i class="fas fa-user-nurse dflex justify-content-center article-2-icons "></i>
                     <h1 class='red-color dflex justify-content-center article-2-h1'>Nursing</h1>
-                    <p class='article-2-p'>The bachelor of nursing (collaborative) program is designed to prepare
+                    <p class='article-2-p article-2-p '>The bachelor of nursing (collaborative) program is designed to
+                        prepare
                         entry-level nurses for careers in a variety of health care settings, as direct caregivers,
                         educators, counselors, advocates, facilitators.</p>
                 </div>
             </div>
-            <div class='dflex justify-content-center  program-site'>
-                <h1><a href='#' class='white-color'>SEE THE WHOLE PROGRAM</a></h1>
+            <div class='dflex justify-content-center  program-site program-site-md'>
+                <h1><a href='#' class='white-color see-program'>SEE THE WHOLE PROGRAM</a></h1>
+                <button class='d-md-none white-color join-university' type='button'>Join Memorial University</button>
             </div>
         </article>
         <article class='article3 mb-5'>
@@ -140,7 +170,8 @@
                             2005.</p>
                     </div>
                 </div>
-                <div class='dflex'>
+                <!--Hidden in medium screen-->
+                <div class='dflex display-md-none'>
                     <img class='teachers-img' src='media/faculty3.jpg'>
                     <div class='dflex-column article-3'>
                         <h1 class='light-black article-3-h1'>Dr. Erika Ismail </h1>
@@ -150,43 +181,129 @@
                             electrical engineering, from the University of Arizona, U.S.A. </p>
                     </div>
                 </div>
-                <div class='dflex'>
+                <div class='dflex display-md-none'>
                     <img class='teachers-img' src='media/faculty4.jpeg'>
                     <div class='dflex-column article-3'>
                         <h1 class='light-black article-3-h1'>Dr. Wael Abdel Samad </h1>
                         <h4 class='red-color article-3-h4'>Associate Professor of Mechanical Engineering</h4>
-                        <p class='article-3-p black-color'>As PMO Director for Dubai Carbon, Dr Pablo Izquierdo leads
+                        <p class='article-3-p black-color'>As PMO Director for Dubai Carbon, Dr Pablo Izquierdo
+                            leads
                             the non-solar advisory team for
                             the brand. He holds final responsibility for calculating carbon footprints, developing
                             carbon management and monitoring strategies. </p>
                     </div>
                 </div>
-                <div class='dflex'>
+                <div class='dflex display-md-none'>
                     <img class='teachers-img' src='media/faculty5.jpg'>
                     <div class='dflex-column article-3'>
                         <h1 class='light-black article-3-h1'>David Egleston</h1>
                         <h4 class='red-color article-3-h4'>Associate Professor of Electrical Engineering</h4>
-                        <p class='article-3-p black-color'>Dr. Tlili joined the Department of Electrical Engineering as
+                        <p class='article-3-p black-color'>Dr. Tlili joined the Department of Electrical Engineering
+                            as
                             an associate professor at
-                            Rochester Institute of Technology Dubai in 2010. Prior to the above Dr.Tlili served for two
+                            Rochester Institute of Technology Dubai in 2010. Prior to the above Dr.Tlili served for
+                            two
                             years as the program director of the Computer Engineering program </p>
                     </div>
                 </div>
-                <div class='dflex'>
+                <div class='dflex display-md-none'>
                     <img class='teachers-img' src='media/faculty4.jpg'>
                     <div class='dflex-column article-3'>
                         <h1 class='light-black article-3-h1'>Dr. John Timmerman-SLI Faculty</h1>
-                        <h4 class='red-color article-3-h4'>Senior Strategist, Customer Experience and Innovation</h4>
+                        <h4 class='red-color article-3-h4'>Senior Strategist, Customer Experience and Innovation
+                        </h4>
                         <p class='article-3-p black-color'>Dr. John Timmerman Gallup's Senior Strategist in Customer
                             Experience and Innovation, is a
                             renowned expert in creating outstanding customer experiences by building and integrating
                             business cultures, systems, and technologies. </p>
                     </div>
                 </div>
+
+                <!--Collapse Menu-->
+
+                <div class="display-none more-md-display w-100">
+                    <button id="more-btn" class="btn border-silver border w-100 p-3" type="button"
+                        data-toggle="collapse" data-target="#speakers-dropdown" aria-expanded="false"
+                        aria-controls="speakers-dropdown" onclick="hideBtn()">
+                        MORE <i class="fas fa-chevron-down text-orange ml-2" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class='row no-gutters d-md-none more-md-display collapse show' id="speakers-dropdown">
+                    <div class='dflex mb-3'>
+                        <img class='teachers-img' src='media/faculty3.jpg'>
+                        <div class='dflex-column article-3'>
+                            <h1 class='light-black article-3-h1'>Dr. Erika Ismail </h1>
+                            <h4 class='red-color article-3-h4'> Professor of Electrical Engineering</h4>
+                            <p class='article-3-p black-color'>Abdulla Ismail obtained his B.Sc. (’80), M.Sc. (’83), and
+                                Ph.D. (’86) degrees, all in
+                                electrical engineering, from the University of Arizona, U.S.A. </p>
+                        </div>
+                    </div>
+                    <div class='dflex mb-3'>
+                        <img class='teachers-img' src='media/faculty4.jpeg'>
+                        <div class='dflex-column article-3'>
+                            <h1 class='light-black article-3-h1'>Dr. Wael Abdel Samad </h1>
+                            <h4 class='red-color article-3-h4'>Associate Professor of Mechanical Engineering</h4>
+                            <p class='article-3-p black-color'>As PMO Director for Dubai Carbon, Dr Pablo Izquierdo
+                                leads
+                                the non-solar advisory team for
+                                the brand. He holds final responsibility for calculating carbon footprints, developing
+                                carbon management and monitoring strategies. </p>
+                        </div>
+                    </div>
+                    <div class='dflex mb-3'>
+                        <img class='teachers-img' src='media/faculty5.jpg'>
+                        <div class='dflex-column article-3'>
+                            <h1 class='light-black article-3-h1'>David Egleston</h1>
+                            <h4 class='red-color article-3-h4'>Associate Professor of Electrical Engineering</h4>
+                            <p class='article-3-p black-color'>Dr. Tlili joined the Department of Electrical Engineering
+                                as
+                                an associate professor at
+                                Rochester Institute of Technology Dubai in 2010. Prior to the above Dr.Tlili served for
+                                two
+                                years as the program director of the Computer Engineering program </p>
+                        </div>
+                    </div>
+                    <div class='dflex mb-3'>
+                        <img class='teachers-img' src='media/faculty4.jpg'>
+                        <div class='dflex-column article-3'>
+                            <h1 class='light-black article-3-h1'>Dr. John Timmerman-SLI Faculty</h1>
+                            <h4 class='red-color article-3-h4'>Senior Strategist, Customer Experience and Innovation
+                            </h4>
+                            <p class='article-3-p black-color'>Dr. John Timmerman Gallup's Senior Strategist in Customer
+                                Experience and Innovation, is a
+                                renowned expert in creating outstanding customer experiences by building and integrating
+                                business cultures, systems, and technologies. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </article>
     </main>
 
+    <footer class='footer'>
+        <div class='footer-section p-5'>
+            <div class='dflex justify-content-center white-color pt-5 '>
+                <h1 class='main-programs'>Partner
+                    <hr class='main-programs-hr'>
+                </h1>
+            </div>
+            <div class='dflex justify-content-center '>
+                <img class='picture' src='media/partner.png'>
+                <img class='picture' src='media/partner2.png'>
+                <img class='picture' src='media/partner3.png'>
+                <img class='picture' src='media/partner4.png'>
+                <img class='picture' src='media/partner6.png'>
+            </div>
+        </div>
+        <div class='footer-section2'>
+            <div class='dflex justify-content-center'>
+                <img class='logo-footer' src='media/footer-logo.png'>
+                <p class='footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
+            </div>
+
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -198,31 +315,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
-    <footer class = 'footer'>
-        <div class='footer-section'>
-            <div class='dflex justify-content-center white-color pt-5 '>
-                <h1 class='main-programs'>Partner
-                    <hr class='main-programs-hr'>
-                </h1>
-            </div>
-            <div class='dflex justify-content-center'>
-                <img  class = 'picture' src = 'media/partner.png'>
-                <img  class = 'picture' src = 'media/partner2.png'>
-                <img  class = 'picture' src = 'media/partner3.png'>
-                <img  class = 'picture' src = 'media/partner4.png'>
-                <img  class = 'picture' src = 'media/partner6.png'>
-            </div>
-        </div>
-        <div class = 'footer-section2'>
-            <div class = 'dflex justify-content-center'>
-                <img class = 'logo-footer' src = 'media/footer-logo.png'>
-                <p class = 'footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
-            </div>
-
-        </div>
-    </footer>
-
 </body>
 
 </html>
