@@ -89,7 +89,7 @@ a {
 }
 
 .nav-items2 {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .first-nav-items {
@@ -338,7 +338,7 @@ margin-bottom: auto;
     max-width: 600px;
     line-height: 1.3rem;
     font-weight: 900;
-    
+    margin: 0 10px;
 }
 
 .about-article1-p2 small {
@@ -543,8 +543,8 @@ table {
     .tickets-button {
         border: none;
         padding: 0;
-        margin: 0 46px 0 0;
-        width: 50px;
+        margin: 0 10px 0 0;
+        width: 90px;
         height: 20px;
     }
     
@@ -625,6 +625,22 @@ table {
 
     .article-2-h1 {
         margin-right: 9px;
+    }
+
+    .about-section-h1 {
+        margin: 0 10px;
+    }
+
+    .about-section-p {
+        margin: 0 10px;
+    }
+
+    .about-section-h1 {
+        margin: 0 10px;
+    }
+
+    .about-section-p2 {
+        margin: 0 10px;
     }
 }
     
