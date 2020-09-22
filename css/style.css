@@ -88,7 +88,7 @@ a {
 }
 
 .nav-items2 {
-    padding-right: 45px;
+    margin-right: 20px;
 }
 
 .first-nav-items {
@@ -98,9 +98,9 @@ a {
 }
 
 .second-nav-items {
-    padding-right: 100px;
     height: 50px;
     align-items: center;
+    flex-grow: 1;
 }
 
 .img-logo {
@@ -109,13 +109,15 @@ a {
 }
 
 .img-container {
-    width: 50%;
-    margin-right: 100px;
+    width: 50px;
+    
 }
 
 .second-nav-container {
     background-color: rgb(255,255,255);
     height: 40px;
+    justify-content: space-between;
+    
 }
 
 .hr {
@@ -139,7 +141,6 @@ a {
 /*Article-1*/
 
 .background-image {  
-    max-width: 100%;
     background: url(/media/bubbles.png) center bottom / cover no-repeat fixed;
     background-size: cover;
     margin-top: 20px;
@@ -156,7 +157,7 @@ a {
 }
 
 .first-section-title {
-    width: 509px;
+    max-width: 509px;
     font-size: 50px;
     font-weight: 900;
     line-height: 1em;
@@ -184,12 +185,10 @@ a {
 /*Article-2*/
 
 .background-image-2 {  
-    width: 100%;
     background: url(/media/—Pngtree—white\ point\ float_4580751.png) no-repeat bottom;
     background-size: cover;
     margin-top: 17px;
     background-color: black;
-    margin-right: 100px;
     background-attachment: fixed;
 }
 
@@ -470,7 +469,6 @@ table {
     width: 100px;
 }
 
-
  .display-none {
      display: none;
  }
@@ -491,19 +489,19 @@ table {
     .article2-container-md {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        max-width: 100%;
     }
 
     .article2-div-md {
         display: flex;
-        width: 700px;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
         margin-bottom: 5px;
+        margin-right: 5px;
     }
     
-    .article-2-p-md {
-       width: 1900px; */
-    }
-    
+   
     .see-program {
         display: none;
     }
@@ -589,5 +587,31 @@ table {
     .first-section-p3 {
         font-size: 25px;
     }
+
+    .dgrd3 {
+        flex-wrap: wrap;
+    }
+
+    .picture {
+        width: 80px;
+        height: 60px;
+        margin: 30px 5px 60px 5px;
+    }
+   
 }
     
+@media only screen and (max-width: 445px){
+
+    .picture-2{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+
+    .picture-3{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: -50px;
+    }
+
+}
