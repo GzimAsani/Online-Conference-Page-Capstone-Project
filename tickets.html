@@ -17,77 +17,79 @@
 <body>
     <!--Navbar-->
 
-    <nav>
+    <nav class='large-screen-navbar'>
         <div class='dflex justify-content-end first-nav-items font-size font-lato-sans'>
             <i class="fab fa-facebook-f white-color nav-items"></i>
-            <i class="fab fa-twitter white-color nav-items"></i>
+            <i class="fab fa-twitter white-color nav-items "></i>
             <p class='white-color nav-items'><a class='white-color' href='#'>My Page</a></p>
             <p class='white-color nav-items'><a class='white-color' href='#'>English</a></p>
             <p class='white-color nav-items'><a class='white-color' href='#'>Logout</a></p>
         </div>
     </nav>
     <nav>
-        <div class='dflex second-nav-container justify-content-end>
+
+        <div class='dflex second-nav-container'>
             <div class='dflex img-container'>
                 <img class='img-logo' src='media/logo.jpg'>
             </div>
-            <div class='dflex second-nav-items justify-content-end '>
-                <p><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></p>
-                <p><a href='./about.html' class='nav-items2 font-size black-color font-cocogoose font-Verdana'>About</a></p>
-                <p><a class='nav-items2 font-size black-color'>Program</a></p>
-                <p><a class='nav-items2 font-size black-color'>Join</a></p>
-                <p><a class='nav-items2 font-size black-color'>News</a></p>
-                <p><button onclick="document.location = 'tickets.html'"
-                        class='nav-items2 font-size tickets-button'>Tickets</button></p>
-            </div>
+            <ul class='dflex justify-content-end second-nav-items font-lato-sans'>
+                <li><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></li>
+                <li><a href='./about.html' class='nav-items2 font-size black-color'>About</a></li>
+                <li><a class='nav-items2 font-size black-color'>Program</a></li>
+                <li><a class='nav-items2 font-size black-color'>Join</a></li>
+                <li><a class='nav-items2 font-size black-color'>News</a></li>
+                <li><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Tickets</button></li>
+            </ul>
         </div>
         <hr class='hr'>
     </nav>
-<!--Medium Screen Navbar-->
-<nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
-    <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
-        aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
-        <div class="navbar-nav pl-3 align-items-center">
-            <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
-            <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
-            <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
-                    class='nav-items2  tickets-button'>Tickets</button></p>
-        </div>
-    </div>
-</nav>
 
-<hr class='medium-nav-hr'>
+    <!--Medium Screen Navbar-->
+    <nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
+        <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
+            aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
+            <div class="navbar-nav pl-3 align-items-center">
+                <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
+                <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
+                <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2  tickets-button'>Tickets</button></p>
+            </div>
+        </div>
+    </nav>
+
+    <hr class='medium-nav-hr'>
 
     <!--Main-->
 
-    <main> 
+    <main class='tickets-main'>
         <div class='tickets-main-div dflex-column align-items-center'>
-            <h1 class='main-programs mt-5'>Main Programs
+            <h1 class='main-programs mt-5 font-lato-sans font-weight-bold'>Main Programs
                 <hr class='main-programs-hr'>
             </h1>
-            <div class='dflex justify-content-center mt-3'>
+            <div class='dflex-column justify-content-center mt-3'>
                 <div class='tickets-main-div-container dflex justify-content-center'>
-                    <span class= > <i class="fas fa-square-full mr-3 mt-1"></i>STEP 1</span>
-                    <p class='mt-2 ml-3'>Please select your tuition plan for the 2020/2021 academic year</p>
+                    <span class=> <i class="fas fa-square-full mr-3 mt-1"></i>STEP 1</span>
+                    <p class='mt-2 ml-3 font-weight-bold'>Please select your tuition plan for the 2020/2021 academic year</p>
                 </div>
             </div>
             <!--Table-->
             <div class='responsive-table mt-3 tuition m-5'>
-                <table class='table table-bordered text-center m-auto'>
+                <table class='table table-bordered text-center m-auto table-container'>
                     <thead>
                         <tr class='table-active font-weight-bold'>
                             <th scope='col'>Tuition</th>
                             <th scope='col'>First Semester</th>
                             <th scope='col'>Second Semester</th>
-                            <th scope='col'>Full Semester</th>
+                            <th scope='col'>Both Semesters</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class='p-5'>
-                            <th class='font-weight-bold scope = ' row'>Date</th>
+                            <th class='font-weight-bold scope = ' row'>Due date</th>
                             <th scope='row'>27/07/2020</th>
                             <th scope='row'>10/01/2021</th>
                             <th scope='row'>20/07/2020</th>
@@ -140,7 +142,8 @@
             <div class='tickets-main-div-container dflex justify-content-center mb-5'>
                 <i class="fas fa-square-full mr-3 mt-2"></i>
                 <span class='mt-2 mr-2'>STEP 2</span>
-                <p class='mt-2'>Please select your lunch for the orientation day held on 25/09/2020<p></p>
+                <p class='mt-2'>Please select your lunch for the orientation day held on 25/09/2020
+                <p></p>
             </div>
             <div class='p-3'>
                 <div class='dgrid dgrid2'>
@@ -183,25 +186,25 @@
             </div>
         </section>
     </main>
-    <footer class = 'footer'>
-        <div class='footer-section'>
+    <footer>
+        <div class='footer-section p-5'>
             <div class='dflex justify-content-center white-color pt-5 '>
-                <h1 class='main-programs'>Partner
+                <h1 class='main-programs'>Partners
                     <hr class='main-programs-hr'>
                 </h1>
             </div>
-            <div class='dflex justify-content-center'>
-                <img  class = 'picture' src = 'media/partner.png'>
-                <img  class = 'picture' src = 'media/partner2.png'>
-                <img  class = 'picture' src = 'media/partner3.png'>
-                <img  class = 'picture' src = 'media/partner4.png'>
-                <img  class = 'picture' src = 'media/partner6.png'>
+            <div class='dflex dgrid3 justify-content-center'>
+                <img class='picture' src='media/partner.png'>
+                <img class='picture' src='media/partner2.png'>
+                <img class='picture' src='media/partner3.png'>
+                <img class='picture picture-2' src='media/partner4.png'>
+                <img class='picture picture-3' src='media/partner6.png'>
             </div>
         </div>
-        <div class = 'footer-section2'>
-            <div class = 'dflex justify-content-center'>
-                <img class = 'logo-footer' src = 'media/footer-logo.png'>
-                <p class = 'footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
+        <div class='footer-section2'>
+            <div class='dflex justify-content-center'>
+                <img class='logo-footer' src='media/footer-logo.png'>
+                <p class='footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
             </div>
 
         </div>

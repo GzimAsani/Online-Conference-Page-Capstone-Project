@@ -20,10 +20,8 @@
 
 
 <body>
-    <!--Navbar-->
-
     <nav class='large-screen-navbar'>
-        <div class='dflex justify-content-end first-nav-items font-size'>
+        <div class='dflex justify-content-end first-nav-items font-size font-lato-sans'>
             <i class="fab fa-facebook-f white-color nav-items"></i>
             <i class="fab fa-twitter white-color nav-items"></i>
             <p class='white-color nav-items'><a class='white-color' href='#'>My Page</a></p>
@@ -32,19 +30,20 @@
         </div>
     </nav>
     <nav>
-        <div class='dflex second-nav-container justify-content-end'>
+
+        <div class='dflex second-nav-container'>
             <div class='dflex img-container'>
                 <img class='img-logo' src='media/logo.jpg'>
             </div>
-            <div class='dflex second-nav-items justify-content-end'>
-                <p><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></p>
-                <p><a href='./about.html' class='nav-items2 font-size black-color'>About</a></p>
-                <p><a class='nav-items2 font-size black-color'>Program</a></p>
-                <p><a class='nav-items2 font-size black-color'>Join</a></p>
-                <p><a class='nav-items2 font-size black-color'>News</a></p>
-                <p><button onclick="document.location = 'tickets.html'"
-                        class='nav-items2 font-size tickets-button'>Tickets</button></p>
-            </div>
+            <ul class='dflex justify-content-end second-nav-items font-lato-sans'>
+                <li><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></li>
+                <li><a href='./about.html' class='nav-items2 font-size black-color'>About</a></li>
+                <li><a class='nav-items2 font-size black-color'>Program</a></li>
+                <li><a class='nav-items2 font-size black-color'>Join</a></li>
+                <li><a class='nav-items2 font-size black-color'>News</a></li>
+                <li><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Tickets</button></li>
+            </ul>
         </div>
         <hr class='hr'>
     </nav>
@@ -67,21 +66,22 @@
 
     <hr class='medium-nav-hr'>
 
+
     <!--Main-->
 
     <main class='background-image about-main-border'>
         <article class='about-main-container dflex-column align-items-center'>
             <div class='about-div-header mb-5 red-color'>
-                <h1>ABOUT MEMORIAL NEWFOUNDLAND AND LABRADOR'S UNIVERSITY </h1>
+                <h1 class = 'font-weight-bold'>ABOUT MEMORIAL NEWFOUNDLAND AND LABRADOR'S UNIVERSITY </h1>
             </div>
-            <div class='about-div-p dflex justify-content-cener'>
+            <div class='about-div-p dflex justify-content-cener mb-4'>
                 <p>At Memorial University more than 18,000 students from over 100 countries come together to discover.
                     From the classics to advanced technology, Memorial offers certificate, diploma, undergraduate,
                     graduate and postgraduate programs across four campuses and online. A global network of more than
                     90,000 accomplished alumni throughout the world strengthens Memorial University’s capacity and
                     reputation for leadership in research, teaching and public engagement.</p>
             </div>
-            <div class='mt-3 mb-4 about-article1-p2'>
+            <div class='mt-3 mb-5 about-article1-p2'>
                 <p>If you have not found an answer to your question in our FAQ. Please email <small
                         class='red-color'>memorial.university@gmail.com</small> or call <small
                         class='red-color'>709-864-8000</small> </p>
@@ -107,7 +107,7 @@
 
     <section class='dflex-column align-items-center my-5 about-section-2'>
         <div>
-            <h1 class='about-section-h1 mb-5'>See the past graduation ceremonies at Memorial University
+            <h1 class='about-section-h1 mb-5 font-weight-small'>See the past graduation ceremonies at Memorial University
                 <hr class='main-programs-hr'>
             </h1>
         </div>
@@ -117,27 +117,29 @@
         </div>
         <div class='dflex justify-content-center mt-5 graduation-pic-container'>
             <div class='lg-mr-3 graduation-pic'>
-                <img class='img-graduation' src='media/graduation.jpg'>
+                <img class='img-graduation position-relative' src='media/graduation.jpg'>
+                <p class = 'position-absolute white-color graduation-class'>Class of 2019</p>
             </div>
             <div class='lg-ml-3 graduation-pic'>
-                <img class='img-graduation' src='media/graduation2.jpg'>
+                <img class='img-graduation position-relative'' src='media/graduation2.jpg'>
+                <p class = 'position-absolute white-color graduation-class'>Class of 2020</p>
             </div>
         </div>
     </section>
 
-    <footer class='footer'>
-        <div class='footer-section'>
+    <footer>
+        <div class='footer-section p-5'>
             <div class='dflex justify-content-center white-color pt-5 '>
-                <h1 class='main-programs'>Partner
+                <h1 class='main-programs'>Partners
                     <hr class='main-programs-hr'>
                 </h1>
             </div>
-            <div class='dflex justify-content-center'>
+            <div class='dflex dgrid3 justify-content-center'>
                 <img class='picture' src='media/partner.png'>
                 <img class='picture' src='media/partner2.png'>
                 <img class='picture' src='media/partner3.png'>
-                <img class='picture' src='media/partner4.png'>
-                <img class='picture' src='media/partner6.png'>
+                <img class='picture picture-2' src='media/partner4.png'>
+                <img class='picture picture-3' src='media/partner6.png'>
             </div>
         </div>
         <div class='footer-section2'>
