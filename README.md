@@ -2,7 +2,7 @@
 
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./media/Screen1.png)
+https://www.mockupworld.co/free/responsive-web-design-showcase-mockup
 
 
 ## Built With
@@ -25,14 +25,14 @@ Prerequisites for getting a local copy are Git, Github profile and Text editor
 - Linkedin: [GzimAsani](https://www.linkedin.com/in/gzim-asani-83390a17a/)
 
 ## Contributing
----
+
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [Issue]() and help us improve!
 
 # Acknowledgments
 
-> The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>. I tried to follow the similar structure but by changing its content. My idea was to create a University page. My project consists three pages "Home", "About" and "Join us!"
+The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>. I tried to follow the similar structure but by changing its content. My idea was to create a University page. My project consists three pages "Home", "About" and "Join us!"
 
 ## Show your support
 
