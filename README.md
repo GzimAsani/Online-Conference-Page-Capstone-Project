@@ -2,12 +2,7 @@
 
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-
-> The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>. I tried to follow the similar structure but by changing its conetent. My idea was to create a University page. My project consists three pages "Home", "About" and "Join us!"
-
 ![screenshot](./media/Screen1.png)
-![screenshot](./media/Screen2.png)
-![screenshot](./media/Screen3.png)
 
 
 ## Built With
@@ -16,13 +11,13 @@
 - CSS
 - Bootstrap
 
-## Dependencies
-
-> Refer to [Linters Config](https://github.com/eananti/linters-config/tree/master/html-css) for dependencies setup guide.
-
 ## Live Demo
 
 [Live Demo Link](https://gracious-hermann-bdef87.netlify.app)
+
+## Getting Started
+
+Prerequisites for getting a local copy are Git, Github profile and Text editor
 
 👤 **Author**
 
@@ -37,6 +32,8 @@ Feel free to check the [Issue]() and help us improve!
 
 # Acknowledgments
 
+> The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>. I tried to follow the similar structure but by changing its content. My idea was to create a University page. My project consists three pages "Home", "About" and "Join us!"
+
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
@@ -47,5 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-All rights are reserved for the authors.
+All rights are reserved for the author.
 
