@@ -2,7 +2,7 @@
 
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-https://www.mockupworld.co/free/responsive-web-design-showcase-mockup
+![screenshot](./media/Screen1.png)
 
 
 ## Built With
