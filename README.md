@@ -34,10 +34,6 @@ Feel free to check the [Issue]() and help us improve!
 
 > The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>. I tried to follow the similar structure but by changing its content. My idea was to create a University page. My project consists three pages "Home", "About" and "Join us!"
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
