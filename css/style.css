@@ -3,7 +3,6 @@
   font-family: lato, sans-serif;
 }
 
-
 /* Generics */
 
 .dflex {
@@ -140,9 +139,9 @@ a {
 /* Article-1 */
 
 .background-image {
-  background: url(/media/background-3.png) center bottom / cover no-repeat fixed;
+  background: url(/media/background-33.jpg) center bottom / cover no-repeat fixed;
   background-size: cover;
-  margin-top: 20px;
+  margin-top: 17px;
   background-attachment: fixed;
 }
 
@@ -186,7 +185,7 @@ a {
 .background-image-2 {
   background: url(/media/—Pngtree—white\ point\ float_4580751.png) no-repeat bottom;
   background-size: cover;
-  margin-top: 17px;
+  margin-top: px;
   background-color: black;
   background-attachment: fixed;
 }
