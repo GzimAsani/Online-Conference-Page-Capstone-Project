@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Tickets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav class='large-screen-navbar'>
+        <div class='dflex justify-content-end first-nav-items font-size font-lato-sans'>
+            <i class="fab fa-facebook-f white-color nav-items"></i>
+            <i class="fab fa-twitter white-color nav-items "></i>
+            <p class='white-color nav-items'><a class='white-color' href='#'>My Page</a></p>
+            <p class='white-color nav-items'><a class='white-color' href='#'>English</a></p>
+            <p class='white-color nav-items'><a class='white-color' href='#'>Logout</a></p>
+        </div>
+    </nav>
+    <nav>
+
+        <div class='dflex second-nav-container'>
+            <div class='dflex img-container'>
+                <a href='./index.html'><img class='img-logo' src='media/logo.jpg' alt='logo'></a>
+            </div>
+            <ul class='dflex justify-content-end second-nav-items font-lato-sans'>
+                <li><a href='./index.html' class='nav-items2 font-size grey-color'>Home</a></li>
+                <li><a href='./about.html' class='nav-items2 font-size black-color'>About</a></li>
+                <li><a class='nav-items2 font-size black-color'>Program</a></li>
+                <li><a class='nav-items2 font-size black-color'>Join</a></li>
+                <li><a class='nav-items2 font-size black-color'>News</a></li>
+                <li><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2 font-size tickets-button'>Join Us!</button></li>
+            </ul>
+        </div>
+        <hr class='hr'>
+    </nav>
+
+    <!--Medium Screen Navbar-->
+    <nav class="col-2 navbar navbar-expand-md navbar-light navbar-medium">
+        <button class="navbar-toggler border-0 collapsed" type="button" data-toggle="collapse" data-target="#nav-links"
+            aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='class="navbar-collapse justify-content-end collapse show"' id='nav-links'>
+            <div class="navbar-nav pl-3 align-items-center">
+                <p class=' mt-4 font-size '><a href='./index.html' class='nav-items2 grey-color'>Home</a></p>
+                <p class='mt-2 font-size '><a href='./about.html' class='nav-items2  black-color'>About</a></p>
+                <p class='mt-2 font-size '><button onclick="document.location = 'tickets.html'"
+                        class='nav-items2  tickets-button'>Join Us!</button></p>
+            </div>
+        </div>
+    </nav>
+
+    <hr class='medium-nav-hr'>
+
+    <!--Main-->
+
+    <main class='tickets-main'>
+        <div class='tickets-main-div dflex-column align-items-center'>
+            <h1 class='main-programs mt-5 font-lato-sans font-weight-bold'>Main Programs
+            </h1>
+            <hr class='main-programs-hr-partners'>
+            <div class='dflex-column justify-content-center mt-3'>
+                <div class='tickets-main-div-container dflex justify-content-center'>
+                    <span> <i class="fas fa-square-full mr-3 mt-1"></i>STEP 1</span>
+                    <p class='mt-2 ml-3 font-weight-bold'>Please select your tuition plan for the 2020/2021 academic
+                        year</p>
+                </div>
+            </div>
+            <!--Table-->
+            <div class='responsive-table mt-3 tuition m-5'>
+                <table class='table table-bordered text-center m-auto table-container'>
+                    <thead>
+                        <tr class='table-active font-weight-bold'>
+                            <th scope='col'>Tuition</th>
+                            <th scope='col'>First Semester</th>
+                            <th scope='col'>Second Semester</th>
+                            <th scope='col'>Both Semesters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='p-5'>
+                            <th class='font-weight-bold' scope='row'>Due date</th>
+                            <th scope='row'>27/07/2020</th>
+                            <th scope='row'>10/01/2021</th>
+                            <th scope='row'>20/07/2020</th>
+                        </tr>
+                        <tr class='align-items-center'>
+                            <th class='font-weight-bold' scope='row'>Full time student</th>
+                            <td>
+                                <span class='font-weight-bold red-color'>$3,200</span>
+                                <br>
+                                <input type='radio' name='tuition' value='first-semester'>
+                            </td>
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$3,200</span><br>
+                                <input type='radio' name='tuition' value='second-semester'>
+                            </td>
+
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$6,200</span><br>
+                                <input type='radio' name='tuition' value='full-semester'>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class='font-weight-bold' scope='row'>Part Time Student</th>
+                            <td>
+                                <span class='font-weight-bold red-color'>$2,500</span><br>
+                                <input type='radio' name='tuition' value='first-semester'>
+                            </td>
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$2,500</span><br>
+                                <input type='radio' name='tuition' value='second-semester'>
+                            </td>
+
+                            <td class='font-weight-bold'>
+                                <span class='font-weight-bold red-color'>$4,800</span><br>
+                                <input type='radio' name='tuition' value='full-semester'>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <section class='position-relative dflex-column align-items-center'>
+            <div class='position-absolute fixed-top square-section'>
+                <i class="fas fa-square-full square-middle position-absolute"></i>
+                <i class='fas fa-chevron-down inside-squadre position-absolute white-color'></i>
+            </div>
+            <h2 class='main-programs mt-5 font-weight-bold'>Select your lunch
+            </h2>
+            <hr class='main-programs-hr-partners'>
+            <div class='tickets-main-div-container dflex justify-content-center mb-5'>
+                <i class="fas fa-square-full mr-3 mt-2 "></i>
+                <span class='mt-2 mr-2'>STEP 2</span>
+                <p class='mt-2'>Please select your lunch for the orientation day held on 25/09/2020
+                <p></p>
+            </div>
+            <div class='p-3'>
+                <div class='dgrid dgrid2'>
+                    <div class='tickets-section-div mb-3'>
+                        <h3 class='tickets-section-h1 mb-4'>Menu #1 <input type='radio' name='menues' value='menu-one'>
+                        </h3>
+                        <p class='font-Verdana'>1.Chicken Salad</p>
+                        <p class='font-Verdana'>2. Greek Salad</p>
+                        <p class='font-Verdana'>3. Veggie and Bean-Filled Salads</p>
+                        <p class='font-Verdana'>4. Tomato Chickpea Salad</p>
+                    </div>
+                    <div class='tickets-section-div mb-3'>
+                        <h3 class='tickets-section-h1 mb-4'>Menu #3 <input type='radio' name='menues' value='menu-two'>
+                        </h3>
+                        <p class='font-Verdana'>1. Chicken Caesar veggie wraps</p>
+                        <p class='font-Verdana'>2. Open olive and chargrilled veggie puff pastry tart</p>
+                        <p class='font-Verdana'>3. Healthy chicken and sweet potato soup</p>
+                        <p class='font-Verdana'>4. Pie maker cheesy potato gem and bacon bites</p>
+                    </div>
+                    <div class='tickets-section-div mb-3'>
+                        <h3 class='tickets-section-h1 mb-4'>Menu #3 <input type='radio' name='menues'
+                                value='menu-three'></h3>
+                        <p class='font-Verdana'>1. Baked bean and avocado jaffles with bacon</p>
+                        <p class='font-Verdana'>2. Super-easy pizza jaffles</p>
+                        <p class='font-Verdana'>3. Creamy tuna and corn jaffles</p>
+                        <p class='font-Verdana'>4. Satay chicken and sesame jaffles</p>
+                    </div>
+                    <div class='tickets-section-div mb-3'>
+                        <h3 class='tickets-section-h1 mb-4'>Vegan <input type='radio' name='menues' value='menu-veg'>
+                        </h3>
+                        <p class='font-Verdana'>1. Vegetarian chickpea and avocado wrap</p>
+                        <p class='font-Verdana'>2. Vegetarian calzones</p>
+                        <p class='font-Verdana'>3. Vegetarian nachos</p>
+                        <p class='font-Verdana'>4. Fast falafel bowl</p>
+                    </div>
+                </div>
+            </div>
+            <div class='mb-4'>
+                <button class='submit' type='submit'>SUBMIT</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class='footer-section p-5'>
+            <div class='dflex-column align-items-center white-color pt-5 '>
+                <h3 class='main-programs'>Partners
+                </h3>
+                <hr class='main-programs-hr-partners'>
+            </div>
+            <div class='dflex dgrid3 justify-content-center'>
+                <img class='picture' src='media/partner.png' alt='partners'>
+                <img class='picture' src='media/partner2.png' alt='partners'>
+                <img class='picture' src='media/partner3.png' alt='partners'>
+                <img class='picture picture-2' src='media/partner4.png' alt='partners'>
+                <img class='picture picture-3' src='media/partner6.png' alt='partners'>
+            </div>
+        </div>
+        <div class='footer-section2'>
+            <div class='dflex justify-content-center'>
+                <img class='logo-footer' src='media/footer-logo.png' alt='footer-logo'>
+                <p class='footer-p white-color'>Copyright @ 2020 Memorial University of Newfoundland.</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
